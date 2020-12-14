@@ -4,7 +4,10 @@ import matplotlib.pyplot as plt
 G = nx.Graph()
 nodes=["SportsCpx","Siwaka","Ph.1A","Ph.1B","Phase2","STC","J1","Phase3","Mada","ParkingLot"]
 G.add_nodes_from(nodes)
-G.nodes()#confirm nodes
+G.nodes()
+
+
+#confirm nodes
 #Add Edges and their weights
 G.add_edge("SportsCpx","Siwaka",weight="450")
 G.add_edge("Siwaka","Ph.1A",weight="10")

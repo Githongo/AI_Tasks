@@ -1,8 +1,7 @@
+#import the necessary libraries
 import os
-
 import networkx as nx
 import matplotlib.pyplot as plt
-
 from classes.greedybfs import GBfsTraverser
 
 G = nx.Graph()
